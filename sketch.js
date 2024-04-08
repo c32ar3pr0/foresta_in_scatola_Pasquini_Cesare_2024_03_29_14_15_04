@@ -67,7 +67,7 @@ function nuvola(num_parti,dimens_parti,dimens_nuvola) {
 
 
 function setup() {
-  createCanvas3D(600, 400);
+  createCanvas3D(windowWidth, windowHeight);
   background3D("lightblue");
   
   let x=10;let y=10;let z=10
@@ -88,3 +88,7 @@ function setup() {
 
 
 function draw() {}
+
+function windowResized (){
+  resizeCanvas3D(windowWidth,windowHeight)
+}
