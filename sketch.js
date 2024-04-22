@@ -72,6 +72,8 @@ function setup() {
   background3D("lightblue");
   
   let x=10;let y=10;let z=10
+
+  setCamera(0,13,15,  0,3,0)
   
   buildbox(x,y,z,0.2)
   align(TOP)
